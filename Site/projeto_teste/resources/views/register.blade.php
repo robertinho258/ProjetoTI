@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Catálogo de Filmes de 2023</title>
+    <title>Registro - Catálogo de Filmes de 2023</title>
     <style>
         body {
             background-color: #000;
@@ -43,17 +43,16 @@
 </head>
 <body>
     <header>
-        <h1>Catálogo de Filmes de 2023</h1>
+        <h1>Registro - Catálogo de Filmes de 2023</h1>
         <div class="login-registro">
-            <a href="{{ route('register') }}" class="btn btn-primary">Registrar</a>
-            <a href="{{ route('login') }}" class="btn btn-success">Login</a>
+            <a href="login.html">Login</a> | <a href="#">Registro</a>
         </div>
     </header>
     
-    <!-- Conteúdo da sua página aqui -->
+    <!-- Conteúdo da página de registro aqui -->
 
     <footer>
-        Rodapé da Minha Página
+        Rodapé da Página de Registro
     </footer>
 </body>
 </html>
